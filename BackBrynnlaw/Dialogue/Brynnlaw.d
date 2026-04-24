@@ -315,7 +315,7 @@ END
 IF ~~ EXTERN O#DORAB2 b2.1
 
 CHAIN O#DORAB2 b2.1
-@112 /* Every pirate on this island must die! That's what Dora says, and I'm not about to disagree with her. This one came on Jeremy's ship, so <PRO_HIMHER> is a pirate's ally! Kill <PRO_HIMHER>! */
+@112 /* Every pirate on this island must die! That's what Dora says, and I'm not about to disagree with her. This one came on Jeremy's ship, so <PRO_HESHE> is a pirate's ally! Kill <PRO_HIMHER>! */
 DO ~SetGlobal("O#BrynnlawPirateLord","GLOBAL",1)~
 EXIT
 
