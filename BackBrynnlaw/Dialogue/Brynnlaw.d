@@ -417,7 +417,7 @@ CHAIN IF ~Global("O#BrynnQuest","GLOBAL",17)~ THEN O#BERLIN b2
 @153 /* What is going on here? Who is killing my mages? */
 DO ~SetGlobal("O#BrynnQuest","GLOBAL",18)~
 = @154 /* Ah, a Child of Bhaal. We meet again. I should have known. */
-= @155 /* Step one foot into Spellhold on your own peril. The Cowled Wizards know how to deal with the likes of you! */
+= @155 /* Step one foot into Spellhold at your own peril. The Cowled Wizards know how to deal with the likes of you! */
 DO ~ApplySpell(Myself,DRYAD_TELEPORT)~
 EXIT
 
