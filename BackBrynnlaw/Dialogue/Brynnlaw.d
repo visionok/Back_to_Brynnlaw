@@ -599,7 +599,7 @@ DO ~SetGlobal("O#BrynnQuest","GLOBAL",24)~
 == O#ROSLIN @220 /* And which work would that be? */
 == O#BERLIN @221 /* Irenicus resided within these walls, Roslin. His experiments are here, within grasp, within reach. And our reach needn't exceed our grasp any longer. Especially with the Child of Bhaal standing right before me. */
 == IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @222 /* Uh-huh. I think this is our cue to attack. */
-== O#BERLIN @223 /* Don't fight, <CHARNAME>. It's hopeless. Whatever force is keeping your alive will be mine. Just one short, incredible ritual - and I am GOD. */
+== O#BERLIN @223 /* Don't fight, <CHARNAME>. It's hopeless. Whatever force is keeping you alive will be mine. Just one short, incredible ritual - and I am GOD. */
 END
 ++ @224 /* Ahem. Are you sure you haven't forgotten "Myahaha"? */ EXTERN O#BERLIN b4.1
 ++ @225 /* Not again! You'll die again before laying a finger on me! */ EXTERN O#BERLIN b4.2
