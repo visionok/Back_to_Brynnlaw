@@ -437,7 +437,7 @@ END
 
 CHAIN O#WIZSPE w1.1
 @159 /* Hear me, fool. We created an impenetrable wall around the asylum for your own good. Go back to your petty squabbles or be punished. */
-== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @160 /* I'm... temped to follow his advice, <CHARNAME>. But I'm with you. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @160 /* I'm... tempted to follow his advice, <CHARNAME>. But I'm with you. */
 == JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @161 /* No! A path to <CHARNAME>'s soul resides inside, and you will let us pass! */
 == JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @162 /* Ho-ho. And you think your grim-looking cowls and stern looks will make us turn back, will you? */
 == KELDORJ IF ~InParty("Keldorn")InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @163 /* This is a matter of life and death. I do not wish to fight, but neither will I let <CHARNAME> perish. */
