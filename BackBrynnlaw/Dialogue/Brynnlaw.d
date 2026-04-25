@@ -1769,7 +1769,7 @@ END
 IF ~~ EXTERN O#GALVEN g1.3
 
 CHAIN O#GALVEN g1.3
-@624 /* Things have changed in Brynnlaw, you know. Once I was a woman of means, and now I'm hiding in my own dungeon with my last men, hiding from that slut Dora and her whelps. Bah! */
+@624 /* Things have changed in Brynnlaw, you know. Once I was a woman of means, and now I'm hiding in my own dungeon with the last of my men, hiding from that slut Dora and her whelps. Bah! */
 = @625 /* I suppose I could still change my standing. You are The Bhaalspawn, after all, and your head is worth a fortune to the Cowled Wizards. All I need is to cut it off. */
 == IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @626 /* Don't even think about it. <CHARNAME> has won over the likes of you thrice over. */
 == O#GALVEN @627 /* You may beg for mercy, though. I might change my mind once I see you on your knees. Come, tie my shoelaces. Lick my boots. I am waiting... */
