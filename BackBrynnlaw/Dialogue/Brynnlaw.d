@@ -652,7 +652,7 @@ CHAIN IF ~Global("O#BrynnQuest","GLOBAL",26)~ THEN O#DORA b6
 EXIT
 
 CHAIN IF ~Global("O#BrynnQuest","GLOBAL",26)~ THEN O#ROSLIN b6
-@240 /* Are you ready, <CHARNAME>? Or do you need more time? We may have to teleport straight out of here afterewards. */
+@240 /* Are you ready, <CHARNAME>? Or do you need more time? We may have to teleport straight out of here afterwards. */
 END
 ++ @241 EXTERN O#ROSLIN b6.00 /* Ready. Let's begin the ritual. */
 ++ @242 EXTERN O#ROSLIN b6.0 /* I still need a minute. */
